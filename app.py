@@ -27,7 +27,7 @@ elif sort == '4':
 elif sort == '5':
     sort = 'rating'
 
-print('Please wait sir , unitil he finished ...⌛️')
+print('Please wait sir , until we finished the process...⌛️')
 
 result = requests.get(f"https://www.jumia.ma/catalog/?q={search}&sort={sort}#catalog-listing")
 
